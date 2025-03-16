@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Data
-bike_data = pd.read_csv("data\day.csv")
+bike_data = pd.read_csv("data/day.csv")
 
 # Pastikan kolom "dteday" sudah dalam format datetime
 bike_data["dteday"] = pd.to_datetime(bike_data["dteday"])
